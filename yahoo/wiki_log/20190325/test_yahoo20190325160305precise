@@ -1,0 +1,3 @@
+{'embedding_dim': 50, 'filter_sizes': '40', 'num_filters': 80, 'dropout_keep_prob': 1, 'l2_reg_lambda': 1e-06, 'hidden_num': 128, 'learning_rate': 0.0001, 'max_len_left': 40, 'max_len_right': 40, 'loss': 'point_wise', 'extend_feature_dim': 10, 'batch_size': 24, 'trainable': True, 'num_epochs': 50, 'evaluate_every': 500, 'checkpoint_every': 500, 'overlap_needed': False, 'position_needed': False, 'dns': False, 'data': 'yahoo', 'CNN_type': 'qacnn', 'sample_train': 1, 'fresh': True, 'pooling': 'max', 'clean': True, 'allow_soft_placement': True, 'log_device_placement': False, 'isEnglish': True}
+ 0:epoch: map_train(0.5651041666666666, 0.5651041666666666)
+ 0:epoch: map_test(0.5556098207113329, 0.5569057243126512)

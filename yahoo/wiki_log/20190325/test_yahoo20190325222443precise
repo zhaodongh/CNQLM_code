@@ -1,0 +1,34 @@
+{'embedding_dim': 50, 'filter_sizes': '40', 'num_filters': 80, 'dropout_keep_prob': 1, 'l2_reg_lambda': 1e-06, 'hidden_num': 128, 'learning_rate': 0.0001, 'max_len_left': 40, 'max_len_right': 40, 'loss': 'point_wise', 'extend_feature_dim': 10, 'batch_size': 24, 'trainable': True, 'num_epochs': 50, 'evaluate_every': 500, 'checkpoint_every': 500, 'overlap_needed': False, 'position_needed': False, 'dns': False, 'data': 'yahoo', 'CNN_type': 'qacnn', 'sample_train': 1, 'fresh': True, 'pooling': 'max', 'clean': True, 'allow_soft_placement': True, 'log_device_placement': False, 'isEnglish': True}
+ 0:epoch: map_train(0.7379959602923117, 0.7395496554209692)
+ 0:epoch: map_test(0.7314900338271697, 0.7325328561580626)
+ 0:epoch: p10.5642978003384095
+ 1:epoch: map_train(0.7887599240377309, 0.7901780263872122)
+ 1:epoch: map_test(0.7655362901026983, 0.7667565287066082)
+ 1:epoch: p10.6147772137619854
+ 2:epoch: map_train(0.8221050500970674, 0.8233365654815997)
+ 2:epoch: map_test(0.7853518999722414, 0.7863255266385496)
+ 2:epoch: p10.643542019176537
+ 3:epoch: map_train(0.8487905073877924, 0.849916621017262)
+ 3:epoch: map_test(0.7977709905639213, 0.7989040859810689)
+ 3:epoch: p10.663141567963903
+ 4:epoch: map_train(0.8707532601967799, 0.871707724974814)
+ 4:epoch: map_test(0.8036167792460048, 0.8048121514069012)
+ 4:epoch: p10.6725888324873096
+ 5:epoch: map_train(0.8902206295345935, 0.8910677638537262)
+ 5:epoch: map_test(0.8074757551544732, 0.8086592091245174)
+ 5:epoch: p10.6779469825155104
+ 6:epoch: map_train(0.9066172759211238, 0.9074312816840915)
+ 6:epoch: map_test(0.8086674063778498, 0.8097942909068069)
+ 6:epoch: p10.6789340101522843
+ 7:epoch: map_train(0.920487945082079, 0.9211771538976843)
+ 7:epoch: map_test(0.8113205187602351, 0.8124026401310617)
+ 7:epoch: p10.6833051325437112
+ 8:epoch: map_train(0.9334654256736878, 0.9340783149310552)
+ 8:epoch: map_test(0.8106660254344217, 0.8119067762468729)
+ 8:epoch: p10.6828821206993796
+ 9:epoch: map_train(0.9451533841540837, 0.9456545703465431)
+ 9:epoch: map_test(0.8092423891440337, 0.8103990411731476)
+ 9:epoch: p10.6807670614777214
+ 10:epoch: map_train(0.9548003573602846, 0.9552359108392827)
+ 10:epoch: map_test(0.8066762851502651, 0.8078985711599875)
+ 10:epoch: p10.6776649746192893
