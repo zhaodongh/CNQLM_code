@@ -1,0 +1,13 @@
+{'embedding_dim': 50, 'filter_sizes': '43', 'num_filters': 100, 'hidden_num': 128, 'dropout_keep_prob': 1, 'l2_reg_lambda': 0.0001, 'learning_rate': 0.01, 'max_len_left': 40, 'max_len_right': 40, 'loss': 'point_wise', 'extend_feature_dim': 10, 'batch_size': 120, 'trainable': False, 'num_epochs': 100, 'evaluate_every': 500, 'checkpoint_every': 500, 'overlap_needed': False, 'position_needed': False, 'dns': False, 'data': 'wiki', 'CNN_type': 'qacnn', 'sample_train': 1, 'fresh': True, 'pooling': 'max', 'clean': True, 'allow_soft_placement': True, 'log_device_placement': False, 'isEnglish': True}
+ 0:epoch: map_train(0.6558681936285516, 0.669335802594416)
+ 0:epoch: map_test(0.6416863909402221, 0.6480696518671205)
+ 1:epoch: map_train(0.6963717038621327, 0.7105103380576988)
+ 1:epoch: map_test(0.6667940588909944, 0.6774340675240076)
+ 2:epoch: map_train(0.7473724513220763, 0.7611505622831045)
+ 2:epoch: map_test(0.6777967247480463, 0.6898783354479557)
+ 3:epoch: map_train(0.8117469362865172, 0.8266692435012162)
+ 3:epoch: map_test(0.6895113062043441, 0.7000001522153422)
+ 4:epoch: map_train(0.86765656932018, 0.8799124769953242)
+ 4:epoch: map_test(0.6620938258388293, 0.6738968954158827)
+ 5:epoch: map_train(0.9126062094265133, 0.9218703117186201)
+ 5:epoch: map_test(0.6455501708402551, 0.6551516228731417)

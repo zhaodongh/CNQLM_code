@@ -1,0 +1,6 @@
+{'embedding_dim': 50, 'filter_sizes': '45', 'num_filters': 100, 'hidden_num': 128, 'dropout_keep_prob': 1, 'l2_reg_lambda': 0.0006, 'learning_rate': 0.01, 'max_len_left': 40, 'max_len_right': 40, 'loss': 'point_wise', 'extend_feature_dim': 10, 'batch_size': 65, 'trainable': False, 'num_epochs': 80, 'evaluate_every': 500, 'checkpoint_every': 500, 'overlap_needed': False, 'position_needed': False, 'dns': False, 'data': 'msra', 'CNN_type': 'qacnn', 'sample_train': 1, 'fresh': True, 'pooling': 'max', 'clean': False, 'allow_soft_placement': True, 'log_device_placement': False, 'isEnglish': True}
+ 0:epoch: map_test(0.6838448176027794, 0.7678571428571428)
+ 1:epoch: map_test(0.6502605674580196, 0.7156308851224105)
+ 2:epoch: map_test(0.6022003474232773, 0.6386112572330352)
+ 3:epoch: map_test(0.5801968731905037, 0.6186217780115729)
+ 4:epoch: map_test(0.671685002895194, 0.7596439169139465)
